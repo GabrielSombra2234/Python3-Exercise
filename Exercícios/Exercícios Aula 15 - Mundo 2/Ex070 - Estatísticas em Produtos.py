@@ -11,11 +11,11 @@ from time import sleep
 # Apresentação
 print('=' * 51)
 sleep(0.7)
-print('| Bem vindo ao Super Mercado Guanabara!           |')
+print('|{:^49}|'.format('Bem vindo ao Super Mercado Guanabara!'))
 sleep(0.7)
 print('-' * 51)
 sleep(0.7)
-print('| Digite as informações dos produdutos comprados! |')
+print('|{:^49}|'.format('Digite as informações dos produdutos comprados!'))
 sleep(0.7)
 print('=' * 51)
 sleep(0.7)
